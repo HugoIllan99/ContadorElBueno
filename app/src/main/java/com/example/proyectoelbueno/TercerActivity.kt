@@ -23,7 +23,7 @@ class TercerActivity : AppCompatActivity() {
             startActivity(miInten)
         } )
         segundoBoton.setOnClickListener(View.OnClickListener {
-            val miInten = Intent(this,SegundaActivity2::class.java)
+            val miInten = Intent(this,MainActivity::class.java)
             startActivity(miInten)
         })
     }

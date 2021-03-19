@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         segundoBoton = findViewById(R.id.segundo_boton)
 
         primerBoton.setOnClickListener(View.OnClickListener {
-            val miInten = Intent(this,SegundaActivity2::class.java)
+            val miInten = Intent(this,MainActivity2::class.java)
             startActivity(miInten)
         })
 
