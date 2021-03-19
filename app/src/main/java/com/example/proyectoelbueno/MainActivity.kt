@@ -32,13 +32,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onStart() {
-        super.onStart()
-        Log.i("mi_app","Estoy en el metodo onStart")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.i("mi_app","Estoy en el metodo onPause")
-    }
 }
