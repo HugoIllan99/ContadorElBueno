@@ -25,11 +25,11 @@ class MainActivity : AppCompatActivity() {
             val miInten = Intent(this,SegundaActivity2::class.java)
             startActivity(miInten)
         })
-        // esto es el calis para saber como va el git
 
-        segundoBoton.setOnClickListener {
-            Log.d("mi_app","Le diste click al segundo boton de una manera mas sencilla")
-        }
+        segundoBoton.setOnClickListener(View.OnClickListener {
+            val miInten = Intent(this,TercerActivity::class.java)
+            startActivity(miInten)
+        })
     }
 
 }
