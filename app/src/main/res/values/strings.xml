@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proyecto el bueno</string>
+    <string name="etiqueta_boton_uno">Ir a segunda actividad</string>
+    <string name="etiqueta_boton_dos">ir a tercera actividad</string>
+    <string name="actividad_dos_boton_uno">Ir a primera actividad</string>
+    <string name="actividad_dos_boton_dos">Ir a tercer actividad</string>
+    <string name="actividad_tres_boton_dos">Ir a segunda actividad</string>
+    <string name="actividad_tres_boton_uno">Ir a primera actividad</string>
+
+</resources>
