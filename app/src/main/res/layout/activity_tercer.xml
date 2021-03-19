@@ -11,25 +11,47 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0"
         android:text="Tercera pantalla" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:text="Hugo Armando Illan Rojas"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tecnologias de la Informacion"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:text="septimo semestre"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TÓPICOS SELECTOS DE TECNOLOGÍAS I"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/actividad_tres_boton_uno"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_height="116dp"
         android:layout_weight="1"
-        android:text="@string/actividad_tres_boton_uno" />
-
-    <Button
-        android:id="@+id/actividad_tres_boton_dos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_weight="1"
-        android:text="@string/actividad_tres_boton_dos" />
+        android:text="@string/actividad_tres_boton_uno"
+        android:textColorLink="#2196F3"
+        app:iconTint="#BF9393" />
 
 </LinearLayout>
