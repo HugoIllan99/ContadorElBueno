@@ -50,7 +50,6 @@
         android:layout_width="match_parent"
         android:layout_height="116dp"
         android:layout_weight="1"
-        android:text="@string/actividad_tres_boton_uno"
-        android:textColorLink="#2196F3" />
+        android:text="@string/actividad_tres_boton_uno" />
 
 </LinearLayout>
