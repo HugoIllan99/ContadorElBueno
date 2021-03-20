@@ -21,7 +21,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_weight="1"
-        android:text="@string/etiqueta_boton_uno" />
+        android:backgroundTint="#03A9F4"
+        android:text="@string/etiqueta_boton_uno"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/segundo_boton"
@@ -30,5 +32,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_weight="1"
-        android:text="@string/etiqueta_boton_dos" />
+        android:backgroundTint="#03A9F4"
+        android:text="@string/etiqueta_boton_dos"
+        android:textColor="#000000" />
 </LinearLayout>
