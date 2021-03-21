@@ -21,7 +21,7 @@
         android:background="#C1BDBD"
         android:text="Hugo Armando Illan Rojas"
         android:textAlignment="center"
-        android:textColor="#252424"
+        android:textColor="#FF5722"
         android:textSize="30sp" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:background="#C1BDBD"
         android:text="Tecnologias de la Informacion"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#FF5722"
         android:textSize="24sp" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:background="#C1BDBD"
         android:text="septimo semestre"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#FF5722"
         android:textSize="24sp" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:background="#C1BDBD"
         android:text="TÓPICOS SELECTOS DE TECNOLOGÍAS I"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#FF5722"
         android:textSize="24sp" />
 
     <Button
