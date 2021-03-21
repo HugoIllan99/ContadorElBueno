@@ -27,13 +27,24 @@ class MainActivity2 : AppCompatActivity() {
         tvContador = findViewById(R.id.tvNumero)
 
         btnIncrementar.setOnClickListener {
+            
             contador ++
             tvContador.text = "$contador"
+
+         if(!btnDecrementar.isEnabled){
+             btnDecrementar.isEnabled = true
+         }
+
             Log.d("contador","$contador")
         }
 
         btnDecrementar.setOnClickListener {
-            contador --
+            if(contador<1){
+                btnDecrementar.isEnabled = false
+            }else{
+                contador--
+            }
+
             tvContador.text = "$contador"
             Log.d("contador","$contador")
         }
